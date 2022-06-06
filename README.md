@@ -3,17 +3,6 @@ The ExpressJS backend for the React/Express sites of forecast-for-cats!\
 It is hosted on [Heroku](https://dashboard.heroku.com/apps).\
 It feeds data to [forecast-for-cats-frontend]().
 
-## Dependencies
-* [Axios](https://www.npmjs.com/package/axios)
-* [Cookie-parser](https://www.npmjs.com/package/cookie-parser)
-* [Cors](https://www.npmjs.com/package/cors)
-* [Debug](https://www.npmjs.com/package/debug)
-* [Dotenv](https://www.npmjs.com/package/dotenv)
-* [Express](https://www.npmjs.com/package/express)
-* [Http-errors](https://www.npmjs.com/package/http-errors)
-* [Jade](https://www.npmjs.com/package/jade)
-* [Morgan](https://www.npmjs.com/package/morgan)
-
 ## Getting Started
 * Clone or fork this repo.
 * Install dependencies with `npm install`.
@@ -41,3 +30,14 @@ Follow [Heroku's NodeJS instructions](https://devcenter.heroku.com/articles/gett
   * `git push heroku main`
   * This step can be done routinely to update your project once it is running.
 * Set up config/environment variables `heroku config:set OPEN_WEATHER_MAPS_API_KEY=your-openweathermaps-api-key`.
+
+## Dependencies
+* [Axios](https://www.npmjs.com/package/axios)
+* [Cookie-parser](https://www.npmjs.com/package/cookie-parser)
+* [Cors](https://www.npmjs.com/package/cors)
+* [Debug](https://www.npmjs.com/package/debug)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [Express](https://www.npmjs.com/package/express)
+* [Http-errors](https://www.npmjs.com/package/http-errors)
+* [Jade](https://www.npmjs.com/package/jade)
+* [Morgan](https://www.npmjs.com/package/morgan)
